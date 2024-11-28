@@ -2,6 +2,7 @@ name: Build Android-armv7-armv8
 
 on:
   push:
+    workflow_dispatch:
     branches: ["feature/build_android"]
 
 # Set the global GitHub token environment variable
